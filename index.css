@@ -1,0 +1,59 @@
+body {
+    background-image: url(images/background.png);
+    font-family: 'arial';
+    text-align: center;
+}
+h1 {
+    font: normal bold 30px/3 "arial";
+    color: #E91E63;
+}
+p{
+    font: normal bold 16px/1 "arial";
+}
+a{
+    font: normal normal 16px/1 "arial";
+}
+div.button {
+    width: 120px;
+    margin: 0 auto;
+}
+button {
+    background-color: #E91E63;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid #E91E63;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+button:hover {
+    background-color: #ffffff;
+    color: #E91E63;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
+}
+div.image {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+img {
+    border: none;
+    border-radius: 8px;
+}
+div.movies {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.output{
+    font: normal bold 30px/3 "arial";
+    color: #E91E63;
+}
